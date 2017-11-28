@@ -1,0 +1,620 @@
+#master { 
+	width: 1200px; 
+	margin: 0 auto; 
+}
+/*Adapta el fondo a cualquier tamaño y navegador*/
+body{
+background: url(Fondo.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+/*Estilo del logo*/
+#logo{
+	position: relative;
+	width: 360px;
+	height: 134px
+}
+
+/*Estilo de barra de navegacion*/
+#navegador{
+	position: relative;
+	bottom: 60px;	
+	padding-left: 75px;
+	margin-top: 20px;
+}
+#navegador ul{ 
+   list-style-type: none; /*le saca los puntos a la lista*/
+   position: relative;
+}
+#navegador li{
+   display: inline;
+   text-align: center;
+   margin: 0 40px 0 0;
+   margin-bottom: 40px
+   border: inset 0pt;
+}
+.navs{
+   padding: 2px 7px 2px 7px;
+   color: #666;
+   border: 1px solid #ccc;
+   text-decoration: none;
+   font-size: 24px;
+   font-family: 'Pacifico', cursive;
+   border-radius: 15px;
+   border: inset 0pt;
+
+}
+#navegador li a:hover{
+   background: linear-gradient(30deg, #388E8E, #800080);
+   color: white;
+}
+
+/*Estilo de sesiones*/
+#sesion{
+  position: absolute;
+  text-decoration: none;
+  margin-left: 905px;
+  color: black;
+  font-family: 'Dubai', sans-serif;
+}
+#sesion2{
+  position: absolute;
+  text-decoration: none;
+  margin-left: 1005px;
+  color: black;
+  font-family: 'Dubai', sans-serif;
+}
+#sesion3{
+  position: absolute;
+  text-decoration: none;
+  margin-left: 1100px;
+  color: black;
+  font-family: 'Dubai', sans-serif;
+}
+
+
+/*Estilo del carrito*/
+#carrito {
+	margin-left: 1180px;
+	width: 25px;
+    height: 25px;
+    position: relative;
+}
+#carrito2
+{
+	width: 0px;
+	height: 0px;
+}
+
+
+/*Estilo de la barra de busqueda*/
+#busqueda {
+    width: 280px;
+  	height:30px;
+    padding: 3px;
+  	margin-left: 470px;
+    background: #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 2px 0 rgba(255,255,255,.5);
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    bottom: 100px;
+}
+
+#busqueda input {
+    width: 190px;
+  	height:20px;
+    padding: 5px;
+    float: left;
+    border: 0;
+    background: #eee;
+    border-radius: 3px 0 0 3px;
+ 	  box-shadow: 0 1px 1px rgba(0,0,0,.4) inset;
+   	outline: 0;
+  	height:21px;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}
+#busqueda button {
+    position: relative;
+    float: right;
+    border: 0;
+    cursor: pointer;
+    height: 30px;
+    width: 80px;
+    font-size:15px;
+    color: #fff;
+    background: linear-gradient(30deg, #388E8E, #800080);
+    border-radius: 0 3px 3px 0;
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}
+
+
+/* Cuerpo */
+#titulodescripcion
+{
+  font-family:'Dubai medium';
+  color: black;
+  font-size: 12pt;
+  width: 40%;
+  background-color: rgba(255,255,255,0.3);
+  margin: 15px auto;
+  padding: 10px;
+  -moz-border-radius:20px;
+  border-radius:20px;
+  border-width:1px;
+  text-align: left;
+  margin: 18px 0; 
+  float: right;
+  padding-bottom: 55px;
+  margin-right: 40px;
+}
+#producto
+{
+	width: 50%;
+	position: relative;
+}
+
+#productogrande
+{
+	width: 438px;
+	height: 585px;
+	margin-left: 150px;
+	margin-right: 20px;
+	margin-top: 18px;
+	border-radius: 10pt;
+	position: absolute;
+}
+#productochico1
+{
+	width: 94px;
+	height: 126px;
+	margin-left: 40px;
+	margin-right: 20px;
+	margin-top: 18px;
+	border-radius: 10pt;
+	position: absolute;
+}
+#productochico2
+{
+	width: 94px;
+	height: 126px;
+	margin-left: 40px;
+	margin-right: 20px;
+	margin-top: 160px;
+	border-radius: 10pt;
+	position: absolute;
+}
+
+#icono
+{
+	width: 14px;
+	height: 14px;
+}
+
+#titulo
+{
+  font-family: 'Pacifico';
+  font-size:  18pt;
+  text-align: center;
+  color:#800080;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-decoration: underline;
+}
+#estrellapregunta
+{
+	font-family: 'Dubai';
+	font-size: 10pt;
+	color: black;
+	position: relative;
+	top: 20px;
+}
+
+#añadiralcarrito
+{
+	text-decoration: none;
+    padding: 8px;
+    font-size: 16px;
+    color: white;
+    border-radius: 6px;
+  	font-family: 'Dubai medium';
+  	background: linear-gradient(30deg, #388E8E, #800080);
+	position: relative;
+	text-align: center;
+	margin: 5px;
+	left: 150px;
+
+}
+#carrito3
+{
+	width: 25px;
+	height: 25px;
+	position: relative;
+	top: 8px;
+	right: 2px;
+}
+#precio
+{
+    font-size: 26px;
+  	font-family: 'Dubai medium';
+	position: relative;
+    padding-right: 20px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 5px;
+    border-style: groove;
+    text-align: right;
+    margin-left: 10px;
+}
+
+#cuerpo
+{
+	position: relative;
+	left: 30px;
+}
+
+#mediosdepago
+{
+	position: relative;
+	height: 100px;
+}
+#medios
+{
+	position: relative;
+	margin-left: 165px;
+	bottom: 55px;
+}
+#credito
+{
+	width: 200px;
+	height: 70px;
+	margin-left: 270px;
+	position: relative;
+	bottom: 120px;
+}
+
+#personalizar
+{
+	position: relative;
+	top: 85px;
+	width: 55%;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.3);
+    padding: 20px;
+    font-family: 'Dubai medium';
+    color: #800080;
+    margin: 0 auto;
+    margin-top: 5px;
+    height: 223.656;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+#botonpersonalizado
+{
+    font-size: 16px;
+  	font-family: 'Dubai medium';
+	 position: relative;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 270px;
+    margin: 5px;
+    border-radius: 6px;
+    border-style: groove;
+    text-align: center;
+    margin-left: 10px;
+  	background: linear-gradient(30deg, #388E8E, #800080);
+  	color: white;
+  	top: 10px;
+  	border: inset 1pt;
+}
+
+#estilocolor
+{
+    
+    border-style: groove;
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+}
+
+select
+{
+  border-radius: 5px;
+  width: 100px;
+  padding: 2px;
+  margin: 0;
+}
+input
+{
+  border-radius: 5px;
+  width: 100px;
+  padding: 2px;
+  margin: 0;  
+}
+
+#paleta
+{
+	width: 25px;
+	height: 25px;
+	position: relative;
+	top: 4px;
+}
+#titulopersonalizar
+{
+	position: relative;
+	font-family: 'Pacifico';
+	font-size: 16pt;
+	margin: 5px;
+    border-radius: 6px;
+    border-style: groove;
+    border: inset 0pt;
+    text-align: center;
+  	color: #800080;
+  	width: 300px;
+  	top: 90px;
+  	background-color: rgba(255,255,255,0.3);
+  	margin: 0 auto;
+}
+
+#divisor
+{
+	width: 70%;
+	position: relative;
+  top: 110px;
+}
+#divisor2 
+{
+	width: 70%;
+	position: relative;
+	top: 70px;
+}
+
+#plumas
+{
+	position: relative;
+	height: 230px;
+	left: 770px;
+  bottom: 160px;
+}
+#divpersonalizar
+{
+  margin-top: 50px;
+	height: 325px;
+}
+
+#titulorelacionados
+{
+	font-family: 'Pacifico';
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	position: relative;
+	width: 1200px;
+	background: linear-gradient(30deg, #388E8E, #800080); 
+	bottom: 30px;
+  margin-top: 0px;
+  border-radius: 7pt;
+  padding-left: 20px; 
+  margin-top: 150px;
+}
+
+#Relacionado1
+{
+	height: 180px;
+	width: 123px;
+	position: relative;
+	left: 120px;
+	border-radius: 10pt;
+}
+#Relacionado2
+{
+	height: 180px;
+	width: 123px;
+	position: relative;
+	left: 270px;
+	border-radius: 10pt;
+}
+#Relacionado3
+{
+	height: 180px;
+	width: 123px;
+	position: relative;
+	left: 420px;
+	border-radius: 10pt;
+}
+#Relacionado4
+{
+	height: 180px;
+	width: 123px;
+	position: relative;
+	left: 570px;
+	border-radius: 10pt;
+}
+
+#vermas1
+{
+	background: linear-gradient(30deg, #388E8E, #800080);	
+	text-decoration: none;
+	color: white;
+	position: relative;
+	border-radius: 6pt;
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: 'Dubai';
+	top: 40px;
+    right: 360px;
+    margin: 0px auto;
+}
+
+#vermas2
+{
+	background: linear-gradient(30deg, #388E8E, #800080);	
+	text-decoration: none;
+	color: white;
+	position: relative;
+	border-radius: 6pt;
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: 'Dubai';
+	top: 40px;
+    right: 160px;
+    margin: 0px auto;
+}
+
+#vermas3
+{
+	background: linear-gradient(30deg, #388E8E, #800080);	
+	text-decoration: none;
+	color: white;
+	position: relative;
+	border-radius: 6pt;
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: 'Dubai';
+	top: 40px;
+	left: 40px;
+	margin: 0px auto;
+}
+
+#vermas4
+{
+	background: linear-gradient(30deg, #388E8E, #800080);	
+	text-decoration: none;
+	color: white;
+	position: relative;
+	border-radius: 6pt;
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: 'Dubai';
+	top: 40px;
+	left: 240px;
+	margin: 0px auto;
+}
+
+#titulosvermas
+{
+  font-size: 12pt;
+  font-family: 'Dubai medium';
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+#titulovermas1
+{
+  float: left;
+  margin-left: 105px;
+}
+#titulovermas2
+{
+  float: left;
+  margin-left: 135px;
+}
+#titulovermas3
+{
+  float: right;
+  margin-right: 105px;
+}
+#titulovermas4
+{
+  float: right;
+  margin-right: 110px;  
+ }
+
+/*Estilo del footer*/  
+#footer {
+  text-align: center;
+  position: absolute;
+  width: 1200px;
+  height: 75px;
+  background: linear-gradient(30deg, #388E8E, #800080);
+  top: 1700px;
+  border-top-right-radius: 15pt;
+  border-top-left-radius: 15pt;
+}
+#redes{ 
+  position: relative;
+  width: 40px;
+  top: 16px;
+  height: 40px;
+  left: 180px;
+  margin-left: 8px;
+}
+#logoFooter{
+  float: left;
+  width: 162px;
+  height: 62px;
+  margin-left: 500px; 
+  margin-top: 8px;  
+}
+#servi{
+  position: relative;
+  text-align: left;
+  display: block;
+  width: 240px;
+  height: 60px;
+  left: 35px;
+  bottom: 68px;
+  font-family: 'Dubai light', sans-serif; 
+  text-decoration: none;
+  font-size: 15px; 
+  color: white;
+}
+#servi a{
+  color: white;
+  text-decoration: none;
+}
+#Seguinos{ 
+  float: right;
+  position: relative;
+  bottom: 90px;
+  margin-right: 180px;  
+  font-size: 15px;
+  font-family: 'Dubai light', sans-serif; 
+  color: white;
+}
+
+.menuDes {
+    position: relative;
+    display: inline-block;
+}
+
+.menuDesCont {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.forms{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    font-family: 'Pacifico', cursive;
+}
+
+.forms a:hover {background-color: #f1f1f1}
+
+.menuDes:hover .menuDesCont {
+    display: block;
+}
+
+.menuDes:hover .dropbtn {
+    background-color: #3e8e41;
+}

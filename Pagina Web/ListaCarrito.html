@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>El ArteSana | Carrito</title>
+
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="css/EstiloListaCarrito.css">
+
+	<link rel="shortcut icon" href="img/favicon.ico">
+
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+	<!-- Implementado jquery -->
+
+	<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+
+	<!-- Implementado jqueryui -->
+	
+	<link rel="stylesheet" href="jqueryui/jquery-ui.min.css">
+
+	<script src="jqueryui/jquery.min.js"></script>
+
+  	<script src="jqueryui/jquery-ui.min.js"></script>
+
+	<!-- Implementado mi Script -->
+
+	<script type="text/javascript" src="js/ScriptCarrito.js"></script>
+
+</head>
+
+<body>
+	<div id="master">
+		<div id="header">
+
+			<link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Merriweather|Open+Sans+Condensed:300|Oswald|Pacifico" rel="stylesheet">
+
+			<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+			<div id="sesiones">
+				<a href="#" id="sesion"> Iniciar Sesion </a>
+
+				<a href="#" id="sesion2">| Registrarse </a>
+
+				<a href="Formulario.html" id="sesion3">| Contacto </a>
+			</div>
+
+			<div id="carrito2">
+				<a href="ListaCarrito.html"> <img src="img/carrito.png" id="carrito"> </a>
+			</div>
+
+			<div>
+				<img src="img/logo.png" id="logo">
+			</div>
+
+			<div id="busqueda" class="ui-widget">
+
+					<input type="text" placeholder="Buscar Aqui..." required id="tags">
+
+					<button type="submit"> Buscar</button>
+			</div>
+
+			<div id="navegador">
+				<ul>
+					<li>
+						<a href="index.html" class="navs">Inicio</a>
+					</li>
+
+					<li>
+						<a href="#" class="navs">Nosotros</a>
+					</li>
+
+					<li>
+						<a href="#" class="navs">Leyenda</a>
+					</li>
+
+					<li>
+						<a href="#" class="navs">Productos</a>
+					</li>
+
+					<li>
+						<a href="#" class="navs">Novedades</a>
+					</li>
+
+					<li>
+						<a href="ListaCarrito.html" class="navs">Carrito</a>
+					</li>
+
+					<li>
+						<div class="menuDes">
+
+							<a href="#" class="navs">Contacto</a>
+
+							<div class="menuDesCont">
+
+							 	<a href="Formulario.html" class="forms">Formulario con JQ</a>
+								<a href="FormularioJS.html" class="forms">Formulario con JS</a>
+
+							</div>
+						</div>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+		<div id="Listado">
+			<ul>
+				<li>
+					Producto
+				</li>
+				<li>
+					Descripcion
+				</li>
+				<li>
+					Envolver como regalo
+				</li>
+				<li>
+					Cantidad
+				</li>
+				<li>
+					Precio
+				</li>
+				<li>
+					Eliminar
+				</li>
+			</ul>
+		</div>
+
+		<hr id="divisor">
+
+		<div id="ProductoCarrito">
+			<div id="imagen">
+				<img src="img/2.jpeg">
+			</div>
+			<div id="descripsionproducto">
+				<p>Atrapasueños Bosque Encantado</p>
+			</div>
+			<div id="regalo">
+				<i class="fa fa-gift fa-2x" aria-hidden="true" ></i>
+				<input type="checkbox">
+			</div>
+			<div>
+				<input type="number" min="1" max="15" value="1" class="cantidad" id="cant">
+			</div>
+			<div>
+				<input type="text" value="150" class="precio" id="subT" readonly="readonly">
+			</div>
+			<div id="Eliminar">
+				<a href="#"><i class="fa fa-times fa-2x" aria-hidden="true"></i></a>
+			</div>
+		</div>
+
+		<hr id="divisor2">
+
+		<div id="ProductoCarrito">
+
+			<div id="imagen">
+				<img src="img/10.jpeg">
+			</div>
+
+			<div id="descripsionproducto">
+				<p>Atrapasueños Ojos Esmeraldas</p>
+			</div>
+
+			<div id="regalo">
+				<i class="fa fa-gift fa-2x" aria-hidden="true"></i>
+				<input type="checkbox">
+			</div>
+
+			<div>
+				<input type="number" min="1" max="15" value="1" class="cantidad" id="cant2">
+			</div>
+
+			<div>
+				<input type="text" value="230" class="precio" id="subT2" readonly="readonly">
+			</div>
+
+			<div id="Eliminar">
+				<a href="#"><i class="fa fa-times fa-2x" aria-hidden="true"></i></a>
+			</div>
+
+		</div>
+
+		<hr id="divisor3">
+
+		<div id="ProductoCarrito">
+			<div id="imagen">
+				<img src="img/Llavero 2.jpeg">
+			</div>
+			<div id="descripsionproducto">
+				<p>Llavero Triple Esperanza</p>
+			</div>
+			<div id="regalo">
+				<i class="fa fa-gift fa-2x" aria-hidden="true" ></i>
+				<input type="checkbox">
+			</div>
+			<div >
+				<input type="number" min="1" max="15" value="1" class="cantidad" id="cant3">
+			</div>
+			<div>
+				<input type="text" value="65" id="subT3" class="precio" readonly="readonly">
+			</div>
+			<div id="Eliminar">
+				<a href="#"><i class="fa fa-times fa-2x" aria-hidden="true"></i></a>
+			</div>
+		</div>
+
+		<hr id="divisor3">
+
+		<div id="footer">
+			<img src="img/logoblanco.png" id="logoFooter">
+
+			<a href="https://www.instagram.com/atrapasuenos.elartesana" target="blank"><img src="img/insta.png" id="redes"></a>
+
+			<a href="https://www.facebook.com/" target="blank"><img src="img/face.png" id="redes"></a>
+
+			<a href="https://twitter.com/?lang=es" target="blank"><img src="img/twit.png" id="redes"></a>
+
+			<div  id="servi">
+				<i class="fa fa-phone" aria-hidden="true"></i>
+				<a href="#">Telefono: 11-4480-8900<br></b></a>
+				<i class="fa fa-map-marker" aria-hidden="true"></i>
+				<a href="">Florencio Varela 1903 <br>San Justo, Buenos Aires, Argentina </a>
+			</div>
+			<div id="Seguinos">
+				<p>Seguinos en nuestras Redes:</p>
+			</div>
+		</div>
+		<div id="pagos">
+			<ul>
+				<li>
+					<label>Pais de Envio:</label>
+					<input type="text" name="pais" id="pais" list="paises" required />
+					<datalist id="paises">
+					<option value="España" />
+					<option value="Mexico" />
+					<option value="Argentina" />
+					<option value="Peru" />
+					<option value="Colombia" />
+					<option value="Otro país" /> 
+					</datalist>
+				</li>
+				<li>
+					Cobro por envio: $50
+				</li>
+				<li>
+					Total: <input type="text" id="Total" placeholder="0" value="0" readonly="readonly">
+				</li>
+			</ul>
+			<div id="metodos">
+				<p>Metodos de Pago: </p>
+				<a href="#"><img src="img/credito.png"></a>
+			</div>
+		</div>
+		<div id="botones">
+			<div id="seguir">
+				<a href="#"><button>Seguir Comprando</button></a>
+			</div>
+			<div id="finalizar">
+				<a href="#"><button>Finalizar Compra</button></a>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
